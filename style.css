@@ -209,6 +209,7 @@ p a{
 	animation-name: example;
 	animation-duration: 4s;
 	border-radius: 15px;
+  
 	
   }
   
@@ -236,6 +237,7 @@ p a{
     animation-name: example;
     animation-duration: 4s;
     border-radius: 15px;
+    
     }
     
     @keyframes example {

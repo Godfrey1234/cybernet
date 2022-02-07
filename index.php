@@ -6,7 +6,6 @@
 		<img src="images/bgP.png" id="logo">
 		<ul>
 			<li><a href="#welcome">Home</a></li>
-			<li><a href="#serve">Services</a></li>
 			<li><a href="https://www.google.com/maps/dir/-25.7050285,28.3812558/cyberNet+Internet+cafe+Pretoria/@-25.706065,28.3817844,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1e955f88e4e4d271:0x9c93bea38b74354a!2m2!1d28.3865657!2d-25.7072593">Directions</a></li>
 			<li><a href="#fot">Contact Us</a></li>
       </ul>
@@ -32,7 +31,7 @@
 
   <br><br>
 
-  
+  <div class="services&About" style="margin-left:0%">
   <div id="row">
 		 <div class="services">
 			 <h1 id="serve">Services</h1>
@@ -67,6 +66,7 @@
         </div>
 </div>
   <br>
+  
   <div id="row">
   <div class="services2">
 			 <h1 id="serve">Services</h1>
@@ -95,6 +95,7 @@
  			
         </div>
 </div> 
+</div>
  
  
   <br>
