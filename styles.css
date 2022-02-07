@@ -1,0 +1,296 @@
+nav{  
+	width: 100%;
+	background-color:darkslategray; 
+	margin-top: 0px;	
+	display: flex;
+
+
+	
+	
+}
+
+body{
+
+   background-color:ghostwhite; 
+   margin-top: auto;
+   margin-left: 1.5%;
+   margin-right: 1.5%;
+   margin-bottom: auto;
+   background-position: absolute;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+}
+
+nav ul{
+
+   display:flex;
+   float:right;
+   margin-left: 45%;
+}
+
+nav ul li{
+	margin-top: 20px;
+
+}
+
+nav ul li a{
+	color:white;
+	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 6px;
+	font-size: 1.5em;
+	text-decoration: none;	
+}
+
+nav ul li a:hover{
+	color:rosybrown;
+}
+nav ul li a:active{
+	border: solid 1px white;
+}
+
+
+#logo{
+	height: 100px;
+	width: 15%;
+	
+}
+
+#btn{
+    
+	background-color: rgba(245, 245, 245, 0.384);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	font-size: 20px;
+	color: white;
+}
+
+#btn:hover{
+
+ background:  transparent;
+
+}
+
+#content{
+  background-color:whitesmoke;
+  width: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  height: 550px;
+
+}
+
+
+#content-text{
+
+   
+   margin-top: 10%;
+   margin-left: 20%;
+ 
+   width: 60%;
+   
+   
+
+}
+.content2{
+	background:url('images/img9.png'); 
+	background-size: cover;
+	background-repeat: no-repeat; 
+	width:100%;
+	height:750px; 
+}
+.content2 h1{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	
+}
+
+.content2 h2{
+	font-size: 2em;
+	color:powderblue;
+	text-align: center;
+	font-family: monospace;
+}
+#row{
+	display: flex;
+}
+#img{
+	display: flex;
+	margin-left: 14%;
+}
+.services{
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-left: 80px;
+	margin-right: 20px;
+	width: 30%;
+
+}
+.aboutUs{
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 30%;
+
+}
+h1{
+	font-family: 'Courier New', Courier, monospace;
+	color:rgba(0, 0, 0, 0.644)
+}
+h2{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bolder;
+	color: seashell;
+	text-decoration: underline;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	color: rosybrown;
+}
+#design{
+	
+}
+ul{
+	list-style-type:none;
+}
+#fot{
+
+   background-color:darkslategray;
+
+}
+.col{
+
+	width:35%;
+	text-align: left;
+	margin-left: 8%;
+	color: black;
+}
+p{
+	font-family: cursive;
+}
+p a{
+	text-decoration: none;
+	color:skyblue;
+}
+.fotterP{
+
+   width: 90%;
+   margin-left: 5%;
+   color: black;
+
+
+}
+
+
+/*Animations for service and about blog*/
+
+.services{
+	background-color:paleturquoise;
+	animation-name: example;
+	animation-duration: 4s;
+	border-radius: 15px;
+	
+  }
+  
+  @keyframes example {
+	from {background-color: paleturquoise;}
+	to {background-color:rgb(109, 230, 109);}
+  }
+
+  .aboutUs{
+	background-color: paleturquoise;
+	animation-name: example;
+	animation-duration: 4s;
+	border-radius: 15px;
+  }
+  
+  @keyframes example {
+	from {background-color: paleturquoise;}
+	to {background-color:rgb(109, 230, 109);}
+  }
+
+  /*Animations for welcome text*/
+  #wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    width: 100%;
+}
+
+#welcome {
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+}
+
+#welcome:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+
+    20% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {  
+        transform: translateY(0.5em);
+        text-shadow: 
+            0 -0.0625em 0 #0c2ffb, 
+            0 -0.125em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.125em 0 #fefc4b;
+    }
+    
+   60% {
+        transform: translateY(-0.25em);
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.0625em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}

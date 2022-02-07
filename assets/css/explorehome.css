@@ -1,0 +1,22 @@
+#icon {
+  font-size: 35px;
+}
+
+#explore p {
+  text-align: justify;
+}
+
+#explore a {
+  color: rgb(0,84,151);
+  transition: transform .2s;
+}
+
+#explore a:hover {
+  color: #e41134;
+  transition: .2s ease;
+}
+
+#explore h3 {
+  text-align: center;
+}
+

@@ -1,0 +1,54 @@
+@media (min-width: 300px) {
+  #promodiv {
+    margin-top: 62px;
+  }
+}
+
+@media (min-width: 320px) {
+  #promodiv {
+    margin-top: 135px;
+  }
+}
+
+@media (min-width: 420px) {
+  #promodiv {
+    margin-top: 69px;
+  }
+}
+
+@media (min-width: 576px) {
+  #promodiv {
+    margin-top: 63px;
+  }
+}
+
+#promo {
+  margin-top: 63px;
+}
+
+#promodiv {
+}
+
+@media (min-width: 300px) {
+  #promoHeading {
+    margin-top: 114px;
+  }
+}
+
+@media (min-width: 900px) {
+  #promoHeading {
+    margin-top: 0px;
+  }
+}
+
+#promo {
+  background-image: url("../../assets/img/suppurt.jpg");
+  background-position: center;
+  border-radius: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+#navcol-1 {
+}
+

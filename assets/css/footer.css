@@ -1,0 +1,17 @@
+#footer-div {
+  background-color: #181818;
+  color: #fff;
+  text-align: justify;
+}
+
+#footer-div h2 {
+  margin-top: 10px;
+}
+
+#adm {
+  text-align: end;
+  text-decoration: none;
+  color: grey;
+}
+
+

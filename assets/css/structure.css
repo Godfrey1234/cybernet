@@ -1,0 +1,225 @@
+#structure-promo {
+  background-image: url(../../assets/img/care.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* media queries */
+
+#structure-jumbo {
+}
+
+@media (min-width: 300px) {
+  #structure-promo {
+    margin-top: 135px;
+  }
+}
+
+
+@media (min-width: 360px) {
+  #structure-promo {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 576px) {
+  #structure-promo {
+    margin-top: 63px;
+  }
+}
+
+#structure-promo {
+  margin-top: 63px;
+}
+
+/* style jumbotron */
+
+#structure-jumbo {
+  background-color: rgba(255,255,255,0.54);
+  margin-top: 10px;
+  text-align: center;
+  max-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#structure-jumbo p {
+  font-size: 1.5em;
+}
+
+#book {
+  margin-right: 20px;
+}
+
+#btns {
+  margin-top: 30px;
+}
+
+@media (min-width: 300px) {
+  #structure-jumbo {
+    margin-top: 108px;
+  }
+}
+
+@media (min-width: 300px) {
+  #navcol-1 {
+    margin-left: 11px;
+  }
+}
+
+.navbar-light .navbar-brand {
+  margin-right: 25px;
+  padding: 30px;
+}
+/*********************************mentors***************************************************************/
+#structure-prom {
+  background-image: url(../../assets/img/suppurt2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#structure-jumbo {
+}
+
+@media (min-width: 300px) {
+  #structure-prom {
+    margin-top: 135px;
+  }
+}
+
+
+@media (min-width: 360px) {
+  #structure-prom {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 576px) {
+  #structure-prom {
+    margin-top: 63px;
+  }
+}
+
+#structure-prom {
+  margin-top: 63px;
+}
+
+/* style jumbotron */
+
+#structure-jumbo {
+  background-color: rgba(255,255,255,0.54);
+  margin-top: 10px;
+  text-align: center;
+  max-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#structure-jumbo p {
+  font-size: 1.5em;
+}
+
+#book {
+  margin-right: 20px;
+}
+
+#btns {
+  margin-top: 30px;
+}
+
+@media (min-width: 300px) {
+  #structure-jumbo {
+    margin-top: 108px;
+  }
+}
+
+@media (min-width: 300px) {
+  #navcol-1 {
+    margin-left: 11px;
+  }
+}
+
+.navbar-light .navbar-brand {
+  margin-right: 25px;
+  padding: 30px;
+}
+
+
+
+/*********************************complaint***************************************************************/
+#structure-promi {
+  background-image: url(../../assets/img/suppurt2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#structure-jumbo {
+}
+
+@media (min-width: 300px) {
+  #structure-promi {
+    margin-top: 135px;
+  }
+}
+
+
+@media (min-width: 360px) {
+  #structure-promi {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 576px) {
+  #structure-promi {
+    margin-top: 63px;
+  }
+}
+
+#structure-promi {
+  margin-top: 63px;
+}
+
+/* style jumbotron */
+
+#structure-jumbo {
+  background-color: rgba(255,255,255,0.54);
+  margin-top: 10px;
+  text-align: center;
+  max-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#structure-jumbo p {
+  font-size: 1.5em;
+}
+
+#book {
+  margin-right: 20px;
+}
+
+#btns {
+  margin-top: 30px;
+}
+
+@media (min-width: 300px) {
+  #structure-jumbo {
+    margin-top: 108px;
+  }
+}
+
+@media (min-width: 300px) {
+  #navcol-1 {
+    margin-left: 11px;
+  }
+}
+
+.navbar-light .navbar-brand {
+  margin-right: 25px;
+  padding: 30px;
+}

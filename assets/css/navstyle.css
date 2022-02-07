@@ -1,0 +1,126 @@
+.btn-primary:hover {
+  color: #000000;
+  background-color: #e41134;
+  border-color: #e41134;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #005497;
+  border-color: #005497;
+}
+
+.bg-white {
+  background-color: #000000!important;
+}
+
+.btn-outline-primary {
+  color: #ffffff;
+  border-color: #005497;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #e41134;
+  border-color: #e41134;
+}
+
+#navigation img {
+  max-height: 63px;
+  padding-right: 10px;
+}
+
+.dropdown-header {
+  font-size: x-large;
+  color: #000;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  border: 0px;
+  background-color: #ffffff;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0,0,0,0.17);
+  transition-delay: 2s;
+  transition: slow;
+  border-radius: 0px;
+}
+
+@media (min-width: 992px) {
+  #nav-links {
+    /*padding-left: 152px;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  #nav-links {
+    padding-left: 0%;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    text-align: left;
+  }
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0,84,151,0.57);
+}
+
+#item {
+  color: #000000;
+}
+
+.navbar-light .navbar-toggler {
+  margin-bottom: 5px;
+}
+
+#navigation {
+  padding-right: 5px;
+  padding-bottom: 53px;
+}
+
+#link {
+  margin-top: 9px;
+}
+
+#link {
+  margin-right: 12px;
+}
+
+@media (min-width: 300px) {
+  #navcol-1 {
+    margin-left: 11px;
+  }
+}
+
+item {
+  color: black;
+}
+
