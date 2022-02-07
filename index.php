@@ -3,7 +3,7 @@
 <link  rel="stylesheet" type= "text/css" href="style.css">	
     <head>
       <nav>
-		<img src="images/bgp.png" id="logo">
+		<img src="images/bgP.png" id="logo">
 		<ul>
 			<li><a href="#welcome">Home</a></li>
 			<li><a href="#serve">Services</a></li>
