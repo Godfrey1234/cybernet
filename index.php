@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<link  rel="stylesheet" type= "text/css" href="styles.css">	
+<link  rel="stylesheet" type= "text/css" href="style.css">	
     <head>
       <nav>
-		<img src="images/cybernet1.jpeg" id="logo">
+		<img src="images/bgp.png" id="logo">
 		<ul>
 			<li><a href="#welcome">Home</a></li>
 			<li><a href="#serve">Services</a></li>
-			<li><a href="#">Directions</a></li>
+			<li><a href="https://www.google.com/maps/dir/-25.7050285,28.3812558/cyberNet+Internet+cafe+Pretoria/@-25.706065,28.3817844,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1e955f88e4e4d271:0x9c93bea38b74354a!2m2!1d28.3865657!2d-25.7072593">Directions</a></li>
 			<li><a href="#fot">Contact Us</a></li>
       </ul>
 	  </nav>
@@ -66,7 +66,38 @@
  			
         </div>
 </div>
-  <br><br>
+  <br>
+  <div id="row">
+  <div class="services2">
+			 <h1 id="serve">Services</h1>
+			 <h3 id="design">
+				 <ul>
+					 <li><img src="images/myself.jpg" width="100%" height="300px"  style=" margin-left:0%;border-radius:12px;"></li>
+					 
+				</ul>
+		</div>
+
+
+		<div class="aboutUs2">
+			
+			<!--<img src="images/img10.jpg" width = "100%" height = "250px">
+			<hr>-->
+			
+				<h1>Mr GZ Mabena</h1>
+				<h3>
+				My GZ Mabena studied Information Technology at
+				Tshwane University of Technology Where he specialized in software development.
+				he then became a freelancer in all IT services, including web design and development.
+				he then developed a website for a construction company named Gerizem construction Pty Ltd in 2021.
+				In 2022 he  opened his first internet cafe called CyberNet.
+				The idea was to help the community with access to internet
+				services at an affordable price.</h3>
+ 			
+        </div>
+</div> 
+ 
+ 
+  <br>
 <div class="portfolio" style="width:100%">
 <br> 
 	<div id="img">
