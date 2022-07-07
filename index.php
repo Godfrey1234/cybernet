@@ -3,10 +3,7 @@
  <head>
 	<link  rel="stylesheet" type= "text/css" href="css/styles.css">	
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-     <nav>
+	<nav>
 		<img src="images/bgP.png" id="logo">
 		<ul>
 			<li><a href="#welcome">Home</a></li>
@@ -15,6 +12,11 @@
 			<li><a href="login.php">Login</a></li>
       </ul>
 	  </nav>
+
+</head>
+
+<body>
+    
 
 
 	<div id = "content">
