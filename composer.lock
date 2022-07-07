@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7146e63f13a0650739349ceb215d49de",
+    "packages": [
+        {
+            "name": "prggmr/xpspl",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prggmr/XPSPL.git",
+                "reference": "903d94493737cbad1705b91b12e30fb684b34da0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prggmr/XPSPL/zipball/903d94493737cbad1705b91b12e30fb684b34da0",
+                "reference": "903d94493737cbad1705b91b12e30fb684b34da0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "bin": [
+                "bin/xpspl"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "__init__.php"
+                ],
+                "psr-0": {
+                    "XPSPL": "XPSPL"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nickolas Whiting",
+                    "email": "prggmr@gmail.com",
+                    "homepage": "http://prggmr.com"
+                }
+            ],
+            "description": "Signals for PHP",
+            "homepage": "http://prggmr.com",
+            "keywords": [
+                "events",
+                "io",
+                "non blocking io",
+                "non-blocking ftp",
+                "signal",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/prggmr/XPSPL/issues",
+                "source": "https://github.com/prggmr/XPSPL/tree/v5.0.0"
+            },
+            "time": "2014-03-18T16:47:23+00:00"
+        },
+        {
+            "name": "zend/gdata",
+            "version": "1.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alchemy-fr/gdata.git",
+                "reference": "4ae96d26cec159d74ced57c89ebdcde754ece35d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alchemy-fr/gdata/zipball/4ae96d26cec159d74ced57c89ebdcde754ece35d",
+                "reference": "4ae96d26cec159d74ced57c89ebdcde754ece35d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Zend Contributors",
+                    "homepage": "http://framework.zend.com/community/contributors"
+                }
+            ],
+            "description": "The Google Data APIs are a set of web services for read/write access to applications hosted by Google",
+            "homepage": "http://framework.zend.com/download/webservices",
+            "keywords": [
+                "gdata",
+                "zend"
+            ],
+            "support": {
+                "issues": "https://github.com/alchemy-fr/gdata/issues",
+                "source": "https://github.com/alchemy-fr/gdata/tree/1.12.1"
+            },
+            "time": "2013-01-30T15:31:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
