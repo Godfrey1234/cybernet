@@ -1,9 +1,9 @@
 nav{  
-	width: 97%;
+	width: 100%;
 	background-color:darkslategray; 
 	margin-top: 0px;	
 	display: flex;
-  position: Fixed;
+  
   
  
 	
@@ -121,16 +121,20 @@ nav ul li a:active{
   width: 100%;
   margin-top: 0%;
   margin-left: 0%;
-  height: 400px;
+  
+  height: auto;
 
 }
 
 #content3{
   background-color:white;
   width: 100%;
-  margin-top: 0%;
+ 
   margin-left: 0%;
-  height: 400px;
+  height: 100%;
+
+
+  
 
 
 }
@@ -264,6 +268,10 @@ nav ul li a:active{
 }
 #row{
 	display: flex;
+  height: 100%;
+  
+  top: 1;
+  bottom: 0;
 }
 #img{
 	display: flex;

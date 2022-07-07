@@ -10,7 +10,7 @@
 
   <body>
 
-   <div id="content5" style="height:100%;">
+   <div id="content5" >
 
      <div id = "row">
         
