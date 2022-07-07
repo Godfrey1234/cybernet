@@ -4,64 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7146e63f13a0650739349ceb215d49de",
+    "content-hash": "e0986d3d1dd0eb84bed49fd534c95e0f",
     "packages": [
-        {
-            "name": "prggmr/xpspl",
-            "version": "v5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/prggmr/XPSPL.git",
-                "reference": "903d94493737cbad1705b91b12e30fb684b34da0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/prggmr/XPSPL/zipball/903d94493737cbad1705b91b12e30fb684b34da0",
-                "reference": "903d94493737cbad1705b91b12e30fb684b34da0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "bin": [
-                "bin/xpspl"
-            ],
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "__init__.php"
-                ],
-                "psr-0": {
-                    "XPSPL": "XPSPL"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache 2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nickolas Whiting",
-                    "email": "prggmr@gmail.com",
-                    "homepage": "http://prggmr.com"
-                }
-            ],
-            "description": "Signals for PHP",
-            "homepage": "http://prggmr.com",
-            "keywords": [
-                "events",
-                "io",
-                "non blocking io",
-                "non-blocking ftp",
-                "signal",
-                "time"
-            ],
-            "support": {
-                "issues": "https://github.com/prggmr/XPSPL/issues",
-                "source": "https://github.com/prggmr/XPSPL/tree/v5.0.0"
-            },
-            "time": "2014-03-18T16:47:23+00:00"
-        },
         {
             "name": "zend/gdata",
             "version": "1.12.1",
