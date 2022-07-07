@@ -4,6 +4,7 @@ nav{
 	margin-top: 0px;	
 	display: flex;
   position: Fixed;
+  
  
 	
 	
@@ -19,6 +20,7 @@ body{
    background-position: absolute;
    background-repeat: no-repeat;
    background-size: cover;
+   width: 97%;
    
    
 }
