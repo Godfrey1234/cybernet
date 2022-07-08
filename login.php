@@ -2,26 +2,17 @@
 <html lang="en">
 
 <head>
-<link  rel="stylesheet" type= "text/css" href="css/styles.css">
+<link  rel="stylesheet" type= "text/css" href="cs/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
     
  </head>
 
 
-  <body>
+  <body style="height:680px;" >
 
-   <div id="content5" >
+   <div id="content5" style ="background: url('images/myhome.png');background-size: cover; background-repeat: no-repeat; width:70%; " >
 
-     <div id = "row">
-        
-        
-      
-        <div id ="loginImg">
-            <img src="images/myhome.png" style="height:680px">
-        </div>
-
-
-        <div id ="loginForm"  style="height:680px">
+        <div id ="loginForm"  style="height:680px; width:60%; margin-left:70%; padding-top:5%;" >
        
          <br><br>
          <form  method="post">
@@ -57,7 +48,7 @@
         </div>
 
      </div>
-   </div>
+  
 
 
 
