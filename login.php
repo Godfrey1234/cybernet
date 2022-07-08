@@ -8,11 +8,11 @@
  </head>
 
 
-  <body style="height:680px;" >
+  <body id="b" style="height:auto; margin-top:0%; margin-bottom:0%; background-color:darkslategray;" >
 
-   <div id="content5" style ="background: url('images/myhome.png');background-size: cover; background-repeat: no-repeat; width:70%; " >
+   <div id="content5" style ="background: url('images/myhome.png');background-size: cover; background-repeat: no-repeat; width:70%; margin-top:0%; margin-bottom:0%;" >
 
-        <div id ="loginForm"  style="height:680px; width:60%; margin-left:70%; padding-top:5%;" >
+        <div id ="loginForm"  style="height:680px; width:60%; margin-left:70%; padding-top:5%; margin-top:0%; margin-bottom:0%;g " >
        
          <br><br>
          <form  method="post">

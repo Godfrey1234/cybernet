@@ -288,7 +288,10 @@ nav ul li a:active{
 }
 #img{
 	display: flex;
-	margin-left: 14%;
+	width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+
 }
 .services{
 	padding-left: 80px;
