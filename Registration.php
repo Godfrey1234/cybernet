@@ -16,7 +16,7 @@
         
       
         <div id ="loginImg">
-            <img src="images/myhome.png" style="height:680px">
+            <img src="images/myhome.png" style="height:auto">
         </div>
 
 
