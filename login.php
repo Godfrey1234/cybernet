@@ -8,7 +8,7 @@
  </head>
 
 
-  <body id="b" style="height:auto; margin-top:0%; margin-bottom:0%; background-color:darkslategray;" >
+  <body id="body2" style="height:680px; margin-top:0%; margin-bottom:0%; background-color:darkslategray;" >
 
    <div id="content5" style ="background: url('images/myhome.png');background-size: cover; background-repeat: no-repeat; width:70%; margin-top:0%; margin-bottom:0%;" >
 
