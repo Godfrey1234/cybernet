@@ -1,216 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-	<link  rel="stylesheet" type= "text/css" href="cs/styles.css">	
+ 
+<head>
+ 
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" type= "text/css" href="cs/styles.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="cs/bootstrap.min.css"  rel="stylesheet">
+    <link href ="cs/font-awesome.min.css"  rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<nav>
-		<img src="images/bgP.png" id="logo">
-		<ul>
-			<li><a href="#welcome">Home</a></li>
-			<li><a href="https://www.google.com/maps/dir/-25.7050285,28.3812558/cyberNet+Internet+cafe+Pretoria/@-25.706065,28.3817844,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1e955f88e4e4d271:0x9c93bea38b74354a!2m2!1d28.3865657!2d-25.7072593">Directions</a></li>
-			
-			<li><a href="login.php">Login</a></li>
-      </ul>
-	  </nav>
-
+    
+    <script src="js/bootstrap.bundle.min.js"></script>  
+    <script src="cs/jq.js"></script> 
+    <script src="myscripts.js"></script> 
 </head>
+  
+<!-- header-->
+<section class="py-5 header text-center"  style = "background:url('images/img9.png'); background-size:cover;" >
+    <div class="container py-5 text-white">
+        <header class="py-5" >
+        <section class="container22">
+        <div class ="welcomeAnimation">
+        <p >Welcome Cybernet internet cafe Online Services: <br><a ; href="https://codepen.io/grohit/">Were change is power</a></p>
+        </div>
+        </section>
+        </header>
+    </div>
+</section>
 
-<body>
-    
 
 
-	<div id = "content">
-		
-		<div id= "row">
-			
-			<div class="content2" style ="background:url(images/img9.png); background-repeat: no-repeat; background-size: cover;">
-				<div id="content-text">
-				<div id="wrapper">
-    				<div id="container">
-        				<h1 id="welcome">WELCOME TO CYBERNET INTERNET CAFE</h1>
-						<h2>Good Sevice means good business cybernet the internet cafe for people!!</h2>
-						<a href="Registration.php"><button id="btnaccount" href="Registration.php">Create an Account</button></a>
-    				</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Sticky navbar-->
+<header class="header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+        <div class="container"><a class="navbar-brand" href="#">
+            <strong class="h6 mb-0 font-weight-bold text-uppercase">Cybernet</strong></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-  <br><br>
+</section>
 
-  <div id = "content3" >
-<br>
-  <div  id= "row">
-    <img id = "myhomeImg" src="images/myhome.png" alt=""> &nbsp&nbsp 
 
-	<div id = "cyberText">
-       <h2 id = "cyberTextH"> Making Internet Cafe Online Services Easy</h2>
-	   <p id = "cyberTextP">Cybernet has now migrated to online services where our clients will be able to recieve and get access to most of our services at the comfort of their homes.</p>
-	    <p id = "cyberTextP1"><i class="fa fa-check"></i>This is what you will be able to do</p>
-		<p id = "cyberTextP1"><i class="fa fa-check"></i>Choose from our variety of CV Templates </p>
-		<p id = "cyberTextP1"><i class="fa fa-check"></i>Choose a quatation template </p>
-		<p id = "cyberTextP1"><i class="fa fa-check"></i>Scan Documents to PDF</p>
-		<p id = "cyberTextP1"><i class="fa fa-check"></i>View list of Open Universities And Get direct links to applications</p>
-		<a href="Registration.php"><button id="btnaccount2" href="Registration.php">Lets Do Business</button></a>
+
+<!-- First Section-->
+
+<section class="py-5 section-1">
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">           
+                
+                <div class="" style = "text-align:left; margin-top:0%; padding-left:4%; padding-right:2%;">
+                <h2>Making Internet Cafe online services easy</h2>
+                <p class="text-muted lead">Cybernet has now migrated to online services where our clients will be able to recieve and get access to most of our services at the comfort of their homes.</p>
+	            <p class="text-muted lead"">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspThis is what you will be able to do</p>
+		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspCreate CV</p>
+		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspCreate & Update quatations</p>
+		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspScan Documents to PDF</p>
+		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspView list of Open Universities And Get direct links to applications</p>
+		        <a class="text-muted lead"><button type="button" class="btn btn-primary">Lets Do Business</button></a>
+               </div>
+            </div>
+        </div>
     </div>
 
 
 
-  </div> 
+</section>
 
 
+<!-- Second Section-->
+<section class="py-5 section-2">
+   
+<div class = "secHeader">
+  <h2 style = "text-align: center; ">Take a look at our Online Services</h2>
+  <br>
+</div>
+          
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv1.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Create CV</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv2.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Create Quotation</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv3.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Scan Documents</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv4.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">create a cover letter</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- /.row -->
 
-<br>
-
- <div id = "OurServices"> 
-	
-   <h3 style = "font-size:2em; padding-top:1%;">Online Services </h3>
-
-    <div id = "row">
-     
-	 <div id ="service1">
-		<Img id="cvImg"src="images/cv4.jpg"></Img>
-		<h3 id = "desc">Create CV <h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/qt3.png"></Img>
-		<h3 id = "desc">Create Quotation <h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/scan2.jpg"></Img>
-		<h3 id = "desc">Scan Documents <h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/lt1.png"></Img>
-		<h3 id = "desc">Write a Letter<h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/jobs1.jpg"></Img>
-		<h3 id = "desc">View Online Jobs<h3/>
-     </div>
-	 
- 
+ <!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="images/serv5.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Website Design</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv6.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">video Invitations</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv7.png" class="card-img-top"  alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Logo Design</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
+    </div>
+      <!-- Team Member 4 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+      <img src="images/serv8.png" class="card-img-top"  alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Poster Design</h5>
+          <div class="card-text text-black-50"></div>
+        </div>
+      </div>
     </div>
 
-
-    
-	<div id = "row">
-     
-	 <div id ="service1">
-		<Img id="cvImg"src="images/cp1.jpg"></Img>
-		<h3 id = "desc">Company Registration<h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/logoD1.png"></Img>
-		<h3 id = "desc">Request For logo Design<h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/contract2.jpg"></Img>
-		<h3 id = "desc">Request for Contract<h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/web1.jpg"></Img>
-		<h3 id = "desc">Web Design & Hosting<h3/>
-     </div>
-
-	 <div id ="service1">
-		<Img id="cvImg"src="images/uni1.jpg"></Img>
-		<h3 id = "desc">See Which University You Qualify for<h3/>
-     </div>
-	 
+</div>
+  <!-- /.row -->
  
-    </div>
- 
- </div>
+</div>
 
 
- <br>
-  <div id= "videoGuide1" >
-  
-  <video id = "vid" controls>
-  <source src="images/explain.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
 
-  </video>
-  <h2 id = "cyberTextH">Watch Our Video To Learn About Our Online Service</h2>
 
-  
 
- </div>
-  <br>
 
-  <br>
-<div class="portfolio" style="width:97%">
-<br> 
-	<div id="img">
-		<div >
-			<img src="images/img4.jpeg" width="100%" height="200px" style="border-radius:12px;">
-       </div>
-	   &nbsp
-	   <div >
-			<img src="images/img3.jpeg" width="100%" height="200px" style="border-radius:12px;">
-       </div>
-	   &nbsp
-	   <div >
-			<img src="images/img2.jpeg" width="100%"  height="200px" style="border-radius:12px;">
-       </div>
-	   &nbsp
-	   <div >
-			<img src="images/img1.jpeg" width="100%"  height="200px" style="border-radius:12px;">
-       </div>
-	   &nbsp
-	   <div >
-			<img src="images/img4.jpeg" width="100%"  height="200px" style="border-radius:12px;">
-       </div>
-	  
-   </div> 
 
 </div>
 
-</body>
 
-<br><br><br><br>
 
-<footer id="fot">
+
+
+
+<!-- /.container -->
+                
+        
+
+
+
+
+<section class="py-5 section-3">
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Watch Our Video To Learn About Our Online Service</h2>
+                
   
-  <div id="row">
-	  <div class="col">
-		  <h2>Address</h2>
-		  <p>19668 Tsamaya Road</p>
-		  <p>Mamelodi East</p>
-		  <p>0122</p>
-      </div>
+                <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="images/explain2.mp4"></iframe>
+</div>
 
-      <div class="col">
-		  <h2>Contact Info</h2>
-		  <p>Phone: 073 166 4529</p>
-		  <p>Alternative: 076 459 8774</p>
-		  <p>Email: <a href="mailto:cybernetinternetcafe555@gmail.com">cybernetinternetcafe555@gmail.com</a></p>
-      </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-	  <div class="col">
-		  <h2>Connect with us</h2>
-		  <p><a href="">Facebook</a></p>
-		  <p><a href="">twitter</a></p>
-		
-      </div>
-	  
+<section class="py-5 section-4">
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                
 
+
+                <div class="container">
+    
+    <div class="row">
+
+	<div class="four col-md-3">
+		<div class="counter-box colored">
+			<i class="fa fa-thumbs-o-up"></i>
+			<span class="counter">120</span>
+			<p>Happy Customers</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa fa-group"></i>
+			<span class="counter">200</span>
+			<p>Registered Members</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa  fa-shopping-cart"></i>
+			<span class="counter">50</span>
+			<p>Projects Completed</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa  fa-user"></i>
+			<span class="counter">62</span>
+			<p>Served Customers</p>
+		</div>
+	</div>
+  </div>	
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-whatsapp" aria-hidden="true"></i></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-facebook" aria-hidden="true"></i></i></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-google" aria-hidden="true"></i></i></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-twitter" aria-hidden="true"></i></i
+      >
+      </a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-github" aria-hidden="true"></i></i></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Contact Admin</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Message</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Submit
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+      
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Address</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a  class="text-white">19668 Tsamaya Road</a>
+            </li>
+            <li>
+              <a  class="text-white">Mamelodi East</a>
+            </li>
+            <li>
+              <a class="text-white">0122</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact Details</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-white">cybernetinternetcafe555@gmail.com</a>
+            </li>
+            <li>
+              <a  class="text-white">073 166 4529</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Connect with us</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">facebook</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">twitter</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Quick Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">privacy policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">about us</a>
+            </li>
+           
+            <li>
+              <a href="#!" class="text-white">covid19</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+       
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
   </div>
-      <hr class="fotterP">
-      <p class="fotterP">Cybernet © <span style="float:right;">Copyright 2021 - All Rights Reserved</span></p>
+  <!-- Grid container -->
 
-
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">cybernet.com</a>
+  </div>
+  <!-- Copyright -->
 </footer>
+<!-- Footer -->
 
 
 </html>

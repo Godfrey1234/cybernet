@@ -1,65 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
- <link  rel="stylesheet" type= "text/cs" href="css/styles.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-
- </head>
-
-
-  <body>
-
-   <div id="content" style="height:500px;">
-
-     <div id = "row">
-        
-        
-      
-        <div id ="loginImg">
-            <img src="images/myhome.png" style="height:680px">
-        </div>
-
-
-        <div id ="loginForm"  style="height:680px">
-       
-         <br><br>
-         <form  method="post">
-		  
-         <a href ="index.php"><i id="homeIcon" style ="margin-left:5%; color:white; font-size:2em; "class="fa fa-home"></i></a> 
-          <h3 style ="font-size:2em; color:white;">Forgot password</h3>
-          
-          <input  style = "padding-top:10px; padding-bottom:10px; border-radius:15px" class= "form-control" placeholder="Email" type="text" name="username" required><br>
-		   
-		   
-          
-          <div id = "row">
-          <p style="text-align:left; margin-left:2%;padding-left:10%; "><a href="Registration.php" style = "color:white;">Create Account?</a></p>
-           <p style="text-align:right; margin-right:2%; padding-left:35%;"><a href="login.php" style = "color:white;">Login</a></p>
-          </div>
-		   <br>
-           &nbsp;<button id="btnaccount" type="submit" name="forgotpass" >forgot password</button> 
-		   <br>
-          <hr>
-		  <div><br></div>
-          <div>
-          
-	      
-          
-         </div>
-          
-        
-
-         </form >
-            
-        </div>
-
-     </div>
-   </div>
-
-
-
-  </body>
  
+<head>
+ 
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" type= "text/css" href="cs/login.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="cs/bootstrap.min.css"  rel="stylesheet">
+    <link href ="cs/font-awesome.css"  rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="js/bootstrap.bundle.min.js"></script>  
+    <script src="cs/jq.js"></script> 
+    
+</head>
   
+<div class="container">
+	<div class="screen">
+		<div class="screen__content">
+            
+			<form class="login">
+            <a href="#"><h3 style = "margin-top:2%; padding-top:1%">Forgot password</h3></a>
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+                   
+					<input type="text" class="login__input" placeholder="User name / Email">
+				</div>
+				
+				<button class="button login__submit">
+					<span class="button__text">Forgort Password</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+			</form>
+			<div class="social-login">
+				<a href="register.php"><h3 Style="color:white">Create account</h3></a>
+				<div class="social-icons">
+					
+				</div>
+			</div>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>		
+	</div>
+</div>
 
-</html>       
+</html>

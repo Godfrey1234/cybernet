@@ -18,28 +18,37 @@
 <div class="container">
 	<div class="screen">
 		<div class="screen__content">
-			<form class="login">
-            <a href="#"><h3 style = "margin-top:2%;">Login</h3></a>
-				<div class="login__field">
+			<form class="login" style = "margin-top:0%;padding-top:0%;">
+            <a href="login.php"><h3 style = "margin-top:2%;">login</h3></a>
+                <div class="login__field">
 					<i class="login__icon fas fa-user"></i>
-                    
-					<input type="text" class="login__input" placeholder="User name / Email">
+					<input type="text" class="login__input" placeholder="Name">
 				</div>
 				<div class="login__field">
 					<i class="login__icon fas fa-lock"></i>
+					<input type="password" class="login__input" placeholder="Surname">
+				</div>
+                <div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" class="login__input" placeholder="Email">
+				</div>
+                <div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" class="login__input" placeholder="Contact">
+				</div>
+                <div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
 					<input type="password" class="login__input" placeholder="Password">
 				</div>
+               
 				<button class="button login__submit">
-					<span class="button__text">Log In Now</span>
+					<span class="button__text">Create Account</span>
 					<i class="button__icon fas fa-chevron-right"></i>
-				</button>				
+				</button>		
+                
+                
 			</form>
-			<div class="social-login">
-				<a href="register.php"><h3 Style="color:white">Create Account</h3></a>
-				<div class="social-icons">
-					
-				</div>
-			</div>
+			
 		</div>
 		<div class="screen__background">
 			<span class="screen__background__shape screen__background__shape4"></span>

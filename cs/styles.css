@@ -1,553 +1,149 @@
-nav{  
-	width: 100%;
-	background-color:darkslategray; 
-	margin-top: 0px;	
-	display: flex;
-  
-  
- 
-	
-	
+.text-small {
+    font-size: 0.9rem !important;
 }
 
-body{
-
-   background-color:ghostwhite; 
-   margin-top: auto;
-   margin-left: 1.5%;
-   margin-right: 1.5%;
-   margin-bottom: auto;
-   background-position: absolute;
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 97%;
-   height: auto;
-   
-   
-}
-
-nav ul{
-
-   display:flex;
-   float:right;
-   margin-left: 45%;
-}
-
-nav ul li{
-	margin-top: 20px;
-
-}
-
-nav ul li a{
-	color:white;
-	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-	padding: 6px;
-	font-size: 1.5em;
-	text-decoration: none;	
-}
-
-nav ul li a:hover{
-	color:rosybrown;
-}
-nav ul li a:active{
-	border: solid 1px white;
-}
-
-
-#logo{
-	height: 100px;
-	width: 15%;
-	
-}
-
-#btn{
+.header {
+    background-color: #00d2ff;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
     
-	background-color: rgba(245, 245, 245, 0.384);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-	font-size: 20px;
-	color: white;
-}
-
-#btn:hover{
-
- background:  transparent;
-
-}
-
-#btnaccount{
-
-  width: 60%;
-  height: 30px;
-  background-color: rgba(47, 79, 79, 0.74); 
-  border: none;
-  border-radius: 50px;
-  color: white;
-  font-size: 1em;
-  margin-left: 20%;
-  margin-left: 20%;
-
-}
-
-#btnaccount:hover{
-
-  background:  transparent;
- 
- }
-
- #btnaccount2{
-
-  width: 60%;
-  height: 30px;
-  background-color: rgba(47, 79, 79, 0.74); 
-  border: none;
-  border-radius: 50px;
-  color: white;
-  font-size: 1em;
-  margin-left: 0%;
-  margin-left: 0%;
-
-}
-
-#btnaccount2:hover{
-
-  background:  rgba(0, 0, 0, 0.774);
- 
- }
-
-#content{
-  background-color:whitesmoke;
-  width: 100%;
-  margin-top: 0%;
-  margin-left: 0%;
-  
-  height: auto;
-
-}
-
-#content3{
-  background-color:white;
-  width: 100%;
- 
-  margin-left: 0%;
-  height: 100%;
-
-
-  
-
-
-}
-
-#myhomeImg{
-
-  width: 45%;
-  display: flex;
-  height: 370px;
-  border: none;
-  border-radius: 50px;
-
-}
-
-#cyberText{
-
- padding-left: 5%;
-
-}
-
-#cyberTextH{
-
-  color: black;
-  padding-left: 25%;
-  padding-right: 25%;
- 
- }
-
- #cyberTextP{
-
-  color: black;
- 
- }
-
- #cyberTextP1{
-
-  color: black;
-  padding-left: 4%;
- 
- }
-#content-text{
-
-   
-   margin-top: 10%;
-   margin-left: 20%;
- 
-   width: 60%;
-   
-   
-
-}
-
-
-#videoGuide1{
-
-  background-color:rgba(245, 245, 245, 0.911);
-  width: 100%;
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: auto;
-
-
-}
-
-#vid{
-
-   width: 50%;
-   margin-top: 3%;
-   padding-left: 25%;
-   padding-right: 25%;
-   height: 250px;
-
-}
-
-#OurServices{
-
-  background-color:rgba(128, 128, 128, 0.253);
-  width: auto;
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: auto;
-  padding-bottom: 2%;
-
-
-
-}
-
-#service1{
-
-  padding-left: 1%;
-  margin-top: 1%;
-  padding-right: 1%;
-  width: 20%;
-  height: 150px;
-  
-
-}
-
-#cvImg{
-  
-  width: 100%;
-  height: 78%;
-  margin-bottom: 0%;
-  display: flex;
-
-}
-
-#desc{
-
-  background-color:darkslategray;
-  padding-top: 2%;
-  width: 100%;
-  height: 22%;
-  margin-top: 0%;
-  color: white;
-  
- 
 }
 
 
 
-.content2{
-	
-	background-size: cover;
-	background-repeat: no-repeat; 
-	width:100%;
-	height:750px; 
-}
-.content2 h1{
-	font-size: 4em;
-	color: white;
-	text-align: center;
-	
+
+.section-1 {
+    background: #f5f5f5;
 }
 
-.content2 h2{
-	font-size: 2em;
-	color:powderblue;
-	text-align: center;
-	font-family: monospace;
-}
-#row{
-	display: flex;
-  height: 100%;
-  
-  top: 1;
-  bottom: 0;
-}
-#img{
-	display: flex;
-	width: 60%;
-  padding-left: 20%;
-  padding-right: 20%;
-
-}
-.services{
-	padding-left: 80px;
-	padding-right: 80px;
-	margin-left: 80px;
-	margin-right: 20px;
-	width: 30%;
-
-}
-.aboutUs{
-	padding-left: 80px;
-	padding-right: 80px;
-	width: 30%;
-
+.section-2 {
+    background: #F1F1F1;
 }
 
-.services2{
-	padding-left: 80px;
-	padding-right: 80px;
-	margin-left: 80px;
-	margin-right: 20px;
-	width: 30%;
-
-}
-.aboutUs2{
-	padding-left: 80px;
-	padding-right: 80px;
-	width: 30%;
-
+.section-3 {
+    background: #EAEAEA;
 }
 
-h1{
-	font-family: 'Courier New', Courier, monospace;
-	color:rgba(0, 0, 0, 0.644)
-}
-h2{
-	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-weight: bolder;
-	color: skyblue;
-	text-decoration: underline;
-}
-h3{
-	text-align: center;
-	font-weight: bold;
-	font-family: monospace;
-	color: rosybrown;
-}
-
-ul{
-	list-style-type:none;
-}
-#fot{
-
-   background-color:darkslategray;
-
-}
-.col{
-
-	width:35%;
-	text-align: left;
-	margin-left: 8%;
-	color: black;
-}
-p{
-	font-family: cursive;
-  color: snow;
-}
-p a{
-	text-decoration: none;
-	color:skyblue;
-}
-.fotterP{
-
-   width: 90%;
-   margin-left: 5%;
-   color: snow;
-
-
+.section-4 {
+    background: #E5E5E5;
 }
 
 
-/*Animations for service and about blog*/
+.myhomeImg{
 
-.services{
-	background-color:skyblue;
-	animation-name: example;
-	animation-duration: 4s;
-	border-radius: 15px;
-  
-	
-  }
-  
-  @keyframes example {
-	from {background-color: skyblue;}
-	to {background-color:paleturquoise;}
-  }
-
-  .aboutUs{
-	background-color: paleturquoise;
-	animation-name: example;
-	animation-duration: 4s;
-	border-radius: 15px;
-  }
-  
-  @keyframes example {
-	from {background-color: paleturquoise;}
-	to {background-color:skyblue}
-  }
-
-
-
-  .services2{
-    background-color: paleturquoise;
-    animation-name: example;
-    animation-duration: 4s;
-    border-radius: 15px;
-    
-    }
-    
-    @keyframes example {
-    from {background-color: paleturquoise;}
-    to {background-color:skyblue}
-    }
-  
-    .aboutUs2{
-      background-color:skyblue;
-      animation-name: example;
-      animation-duration: 4s;
-      border-radius: 15px;
-      
-      }
-      
-      @keyframes example {
-      from {background-color: skyblue;}
-      to {background-color:paleturquoise;}
-      }
-    
-  
-
-
-
-  /*Animations for welcome text*/
-  #wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80em;
-}
-
-#container {
+    width: 45%;
     display: flex;
-    flex-direction: column;
-    float: left;
-    justify-content: center;
-    width: 100%;
-}
-
-#welcome {
-    margin-top: 20%;
-    animation: text-shadow 1.5s ease-in-out infinite;
-    font-size: 3em;
-    font-weight: 900;
-    line-height: 1;
-}
-
-#welcome:hover {
-    animation-play-state: paused;
-}
-
-
-@keyframes text-shadow {
-    0% {  
-        transform: translateY(0);
-        text-shadow: 
-            0 0 0 #0c2ffb, 
-            0 0 0 #2cfcfd, 
-            0 0 0 #fb203b, 
-            0 0 0 #fefc4b;
-    }
-
-    20% {  
-        transform: translateY(-1em);
-        text-shadow: 
-            0 0.125em 0 #0c2ffb, 
-            0 0.25em 0 #2cfcfd, 
-            0 -0.125em 0 #fb203b, 
-            0 -0.25em 0 #fefc4b;
-    }
-
-    40% {  
-        transform: translateY(0.5em);
-        text-shadow: 
-            0 -0.0625em 0 #0c2ffb, 
-            0 -0.125em 0 #2cfcfd, 
-            0 0.0625em 0 #fb203b, 
-            0 0.125em 0 #fefc4b;
-    }
-    
-   60% {
-        transform: translateY(-0.25em);
-        text-shadow: 
-            0 0.03125em 0 #0c2ffb, 
-            0 0.0625em 0 #2cfcfd, 
-            0 -0.03125em 0 #fb203b, 
-            0 -0.0625em 0 #fefc4b;
-    }
-
-    80% {  
-        transform: translateY(0);
-        text-shadow: 
-            0 0 0 #0c2ffb, 
-            0 0 0 #2cfcfd, 
-            0 0 0 #fb203b, 
-            0 0 0 #fefc4b;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    * {
-      animation: none !important;
-      transition: none !important;
-    }
-}
-
-
-
-/*Login Page style*/
-
-
-#loginImg{
-  height: 100%;
-  width: 50%;
-}
-
-#loginForm
-{
+    height: 370px;
+    border: none;
+    border-radius: 50px;
   
-  width: 40%;
-  height: 100%;
-  margin-left: 1%;
-  background-color: rgba(128, 128, 128, 0.514);
+  }
+
+
+  #row {
+    display: flex;
+  }
+  
+  #column {
+    flex: 50%;
+  }
+  
+
+ 
+
+.counter-box {
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
 }
 
-label{
-
-  padding-left: 10%;
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
 }
 
-input{
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
 
-width: 80%;
-height: 15px;
-margin-left: 10%;
-size: 3em;
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
 
+.counter-box.colored {
+      background: rgb(0, 81, 255);
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
 }
 
 
 
+  
+  #vid{
+  
+     width: 50%;
+     margin-top: 3%;
+     padding-left: 25%;
+     padding-right: 25%;
+     height: 250px;
+  
+  }
+  
 
+
+.welcomeAnimation a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+  }
+  
+  .welcomeAnimation p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, white, blue, white);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 6s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    25% {
+      background-position-x: -250%;
+    }
+    50% {
+      background-position-x: -0%;
+    }
+    75% {
+      background-position-x: 250%;
+    }
+
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  
