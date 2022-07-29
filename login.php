@@ -4,50 +4,64 @@
 <head>
  
     <meta charset="UTF-8">
-    <link  rel="stylesheet" type= "text/css" href="cs/login.css">	
+    <link  rel="stylesheet" type= "text/css" href="cs/logins.css">	
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href ="cs/bootstrap.min.css"  rel="stylesheet">
-    <link href ="cs/font-awesome.css"  rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script> 
     
-    <script src="js/bootstrap.bundle.min.js"></script>  
-    <script src="cs/jq.js"></script> 
     
 </head>
-  
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
 <div class="container">
-	<div class="screen">
-		<div class="screen__content">
-			<form class="login">
-            <a href="#"><h3 style = "margin-top:2%;">Login</h3></a>
-				<div class="login__field">
-					<i class="login__icon fas fa-user"></i>
-                    
-					<input type="text" class="login__input" placeholder="User name / Email">
-				</div>
-				<div class="login__field">
-					<i class="login__icon fas fa-lock"></i>
-					<input type="password" class="login__input" placeholder="Password">
-				</div>
-				<button class="button login__submit">
-					<span class="button__text">Log In Now</span>
-					<i class="button__icon fas fa-chevron-right"></i>
-				</button>				
-			</form>
-			<div class="social-login">
-				<a href="register.php"><h3 Style="color:white">Create Account</h3></a>
-				<div class="social-icons">
-					
-				</div>
-			</div>
-		</div>
-		<div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
-		</div>		
-	</div>
-</div>
+            <div class="row">
+                <div class="col-md-11 mt-60 mx-md-auto">
+                    <div class="login-box bg-white pl-lg-5 pl-0">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-md-6">
+                                <div class="form-wrap bg-white">
+                                    <h4 class="btm-sep pb-3 mb-5">Login</h4>
+                                    <form class="form" method="post" action="#">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group position-relative">
+                                                    <span class="zmdi zmdi-account"></span>
+                                                    <input type="email" id="email" class="form-control" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group position-relative">
+                                                    <span class="zmdi zmdi-email"></span>
+                                                    <input type="password" id="password" class="form-control" placeholder="Password">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-lg-right">
+                                                <a href="forgotpassword.php" class="c-black">Forgot password ?</a>
+                                            </div>
+                                            <div class="col-12 mt-30">
+                                                <button type="submit" id="submit" class="btn btn-lg btn-custom btn-dark btn-block">Sign In
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content text-center">
+                                    <div class="border-bottom pb-5 mb-5">
+                                        <h3 class="c-black">First time here?</h3>
+                                        <a href="register.php" class="btn btn-custom">Sign up</a>
+                                    </div>
+                                    
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 </html>
