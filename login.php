@@ -1,3 +1,12 @@
+<?php
+
+require_once('dbconnection.php');
+session_start();
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
  
@@ -9,10 +18,60 @@
     <link href ="cs/bootstrap.min.css"  rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/bootstrap.bundle.min.js"></script> 
-    
+     
     
 </head>
  
+ 
+<?php
+     
+  //log in code
+
+       if(isset($_POST['login']))
+        {
+            $password=$_POST['password'];
+            $username=$_POST['email'];
+            $ret= mysqli_query($db,"SELECT * FROM users WHERE email ='$username' and pass ='$password'");
+            $num=mysqli_fetch_array($ret);
+
+
+           if($num>0)
+             {
+               //header is a command used for redirecting to another page
+        
+                $extra="home.php";
+                header("location:$extra");
+
+              
+              //session is used to store value from the database
+                $_SESSION['name'] = $num['name'];
+                $_SESSION['surname1'] = $num['surname'];
+				$_SESSION['email1'] = $num['email'];
+               
+				
+             }
+           else
+             {
+                echo "<script>alert('invalid username or Password');</script>";
+             }
+        }
+     
+	 
+	 
+
+ ?>
+
+
+
+
+
+
+
+
+
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
 <div class="container">
             <div class="row">
@@ -22,26 +81,26 @@
                             <div class="col-md-6">
                                 <div class="form-wrap bg-white">
                                     <h4 class="btm-sep pb-3 mb-5">Login</h4>
-                                    <form class="form" method="post" action="#">
+                                    <form action = "login.php" method = "post" >
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="form-group position-relative">
                                                     <span class="zmdi zmdi-account"></span>
-                                                    <input type="email" id="email" class="form-control" placeholder="Email Address">
+                                                    <input type="email"  name = "email" class="form-control" placeholder="Email Address" required>
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div class="form-group position-relative">
                                                     <span class="zmdi zmdi-email"></span>
-                                                    <input type="password" id="password" class="form-control" placeholder="Password">
+                                                    <input type="password"   name="password" class="form-control" placeholder="Password" required>
                                                 </div>
                                             </div>
                                             <div class="col-12 text-lg-right">
                                                 <a href="forgotpassword.php" class="c-black">Forgot password ?</a>
                                             </div>
                                             <div class="col-12 mt-30">
-                                                <button type="submit" id="submit" class="btn btn-lg btn-custom btn-dark btn-block">Sign In
-                                                </button>
+                                                
+                                                <Button class="btn btn-primary btn-block py-2" type="submit" name="login"><span class="font-weight-bold">Sign in</span></button>
                                             </div>
                                         </div>
                                     </form>

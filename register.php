@@ -1,3 +1,10 @@
+<?php
+
+require_once('dbconnection.php')
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
  
@@ -15,6 +22,74 @@
     
 </head>
  
+
+<?php
+
+
+
+     
+     //inserting data to the database
+
+     if(isset($_POST['register']))
+     {
+       
+          $name = $_POST['firstname'] ;  
+          $surname = $_POST['lastname'] ;
+		  $email	= $_POST['email'] ;
+	      $contact = $_POST['phone'] ;
+          $password = $_POST['password'] ;
+          $confirm = $_POST['passwordConfirmation'] ;
+		  
+		  
+		  $ret= mysqli_query($db,"SELECT * FROM users WHERE email = '$email'"); 
+		  $num=mysqli_fetch_array($ret);
+		
+		
+		  if($num  > 0){
+		   
+		   
+            echo "<script>alert('User Already Registered Use Forgot Password to Retrieve Account');</script>";
+		  
+			  
+		  }	
+          else
+		  {
+			 
+             
+            if($password == $confirm){
+             $sql=mysqli_query($db,"insert into users (name,surname,email,contact,pass)values('$name','$surname','$email','$contact','$password')");
+          
+             echo "<script>alert('Registration successfully');</script>";
+             
+            }else{
+
+                echo "<script>alert('password dont match');</script>";
+            }
+              
+
+		  }
+
+
+         
+
+
+
+          
+     }
+     
+    
+
+
+
+
+
+?>
+
+
+
+
+
+
 
 <!-- Navbar-->
 <header class="header">
@@ -43,7 +118,7 @@
 
         <!-- Registeration Form -->
         <div class="col-md-7 col-lg-6 ml-auto">
-            <form action="#">
+        <form action = "Register.php" method = "post" >
                 <div class="row">
 
                     <!-- First Name -->
@@ -53,7 +128,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white border-left-0 border-md">
+                        <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white border-left-0 border-md" required>
                     </div>
 
                     <!-- Last Name -->
@@ -63,7 +138,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md">
+                        <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md" required>
                     </div>
 
                     <!-- Email Address -->
@@ -73,7 +148,7 @@
                                 <i class="fa fa-envelope text-muted"></i>
                             </span>
                         </div>
-                        <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md">
+                        <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md" required>
                     </div>
 
                     <!-- Phone Number -->
@@ -83,14 +158,10 @@
                                 <i class="fa fa-phone-square text-muted"></i>
                             </span>
                         </div>
-                        <select id="countryCode" name="countryCode" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
-                            <option value="">+27</option>
-                            <option value="">+10</option>
-                            <option value="">+15</option>
-                            <option value="">+18</option>
-                        </select>
-                        <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
-                    </div>.
+                       
+                        <input class= "form-control" placeholder="Contact number" type="tel" name="phone" title="number must be in this format 078 589 8585" pattern = "(\+27|0)[6-8][0-9]{8}" minlength="10" maxlength="10" required value="<?php if(isset($_POST['submit']))
+                         { echo htmlentities(($_POST['phone']));   } ?>">
+                    </div>
 
 
                     <!-- Job -->
@@ -100,7 +171,7 @@
                                 <i class="fa fa-black-tie text-muted"></i>
                             </span>
                         </div>
-                        <select id="job" name="jobtitle" class="form-control custom-select bg-white border-left-0 border-md">
+                        <select id="job" name="jobtitle" class="form-control custom-select bg-white border-left-0 border-md" required>
                             <option value="">Choose your Preffered Method of Contact</option>
                             <option value="">Whatsapp</option>
                             <option value="">Email</option>
@@ -115,7 +186,7 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+                        <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md" required>
                     </div>
 
                     <!-- Password Confirmation -->
@@ -125,15 +196,17 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md">
+                        <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md" required>
                     </div>
 
                     <!-- Submit Button -->
                     <div class="form-group col-lg-12 mx-auto mb-0">
-                        <a href="#" class="btn btn-primary btn-block py-2">
-                            <span class="font-weight-bold">Create your account</span>
-                        </a>
+                    <Button class="btn btn-primary btn-block py-2" type="submit" name="register"><span class="font-weight-bold">Create your account</span></button>
                     </div>
+
+
+
+                   
 
                     <!-- Divider Text -->
                     <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">

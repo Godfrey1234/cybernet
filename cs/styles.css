@@ -111,19 +111,19 @@
   }
   
   .welcomeAnimation p {
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     font-size: 15px;
     font-family: Hack, sans-serif;
     text-transform: uppercase;
-    background: linear-gradient(90deg, white, blue, white);
+    background: linear-gradient(90deg, white, SNOW, white);
     letter-spacing: 5px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 6s linear infinite;
+    animation: shine 8s linear infinite;
     position: relative;
   }
   

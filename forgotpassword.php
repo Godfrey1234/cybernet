@@ -13,6 +13,12 @@
     
 </head>
  
+
+
+
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
 <div class="container">
             <div class="row">
@@ -31,9 +37,7 @@
                                                 </div>
                                             </div>
                                           
-                                            <div class="col-12 text-lg-right">
-                                                <a href="forgotpassword.php" class="c-black">Forgot password ?</a>
-                                            </div>
+                                            
                                             <div class="col-12 mt-30">
                                                 <button type="submit" id="submit" class="btn btn-lg btn-custom btn-dark btn-block">Forgot Password
                                                 </button>

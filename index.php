@@ -21,7 +21,7 @@
         <header class="py-5" >
         <section class="container22">
         <div class ="welcomeAnimation">
-        <p >Welcome Cybernet internet cafe Online Services: <br><a ; href="https://codepen.io/grohit/">Were change is power</a></p>
+        <p >Welcome TO Cybernet Online Services:</p>
         </div>
         </section>
         </header>
@@ -39,7 +39,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#serv">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fot12">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
                 </ul>
             </div>
@@ -53,7 +54,7 @@
 
 <!-- First Section-->
 
-<section class="py-5 section-1">
+<section class="py-5 section-1" id ="fot">
     <div class="container py-5 text-center">
         <div class="row">
             <div class="col-lg-8 mx-auto">           
@@ -66,7 +67,7 @@
 		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspCreate & Update quatations</p>
 		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspScan Documents to PDF</p>
 		        <p class="text-muted lead">&nbsp&nbsp&nbsp<i class="fa fa-check"></i>&nbspView list of Open Universities And Get direct links to applications</p>
-		        <a class="text-muted lead"><button type="button" class="btn btn-primary">Lets Do Business</button></a>
+		        <a class="text-muted lead" href="register.php"><button type="button" class="btn btn-primary">Lets Do Business</button></a>
                </div>
             </div>
         </div>
@@ -78,7 +79,7 @@
 
 
 <!-- Second Section-->
-<section class="py-5 section-2">
+<section class="py-5 section-2" id ="serv">
    
 <div class = "secHeader">
   <h2 style = "text-align: center; ">Take a look at our Online Services</h2>
@@ -94,7 +95,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv1.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Create CV</h5>
+          <a href="login.php"><h5 class="card-title mb-0">Create CV</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -104,7 +105,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv2.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Create Quotation</h5>
+        <a href="login.php"> <h5 class="card-title mb-0">Create Quotation</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -114,7 +115,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv3.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Scan Documents</h5>
+        <a href="login.php"><h5 class="card-title mb-0">Scan Documents</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -124,7 +125,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv4.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">create a cover letter</h5>
+        <a href="login.php"><h5 class="card-title mb-0">create a cover letter</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -140,7 +141,7 @@
       <div class="card border-0 shadow">
         <img src="images/serv5.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Website Design</h5>
+        <a href="login.php"><h5 class="card-title mb-0">Website Design</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -150,7 +151,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv6.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">video Invitations</h5>
+        <a href="login.php"><h5 class="card-title mb-0">video Invitations</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -160,7 +161,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv7.png" class="card-img-top"  alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Logo Design</h5>
+        <a href="login.php"> <h5 class="card-title mb-0">Logo Design</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -170,7 +171,7 @@
       <div class="card border-0 shadow">
       <img src="images/serv8.png" class="card-img-top"  alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Poster Design</h5>
+        <a href="login.php"> <h5 class="card-title mb-0">Poster Design</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>
@@ -268,7 +269,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white" id = "fot12">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
