@@ -76,7 +76,7 @@ session_start();
       <div class="card border-0 shadow">
       <img src="images/serv1.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-         <a href = "cvForm.php"> <h5 class="card-title mb-0">Create CV</h5></a>
+         <a href = "cvTemplates.php"> <h5 class="card-title mb-0">Create CV</h5></a>
           <div class="card-text text-black-50"></div>
         </div>
       </div>

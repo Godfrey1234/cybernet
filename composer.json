@@ -1,7 +1,8 @@
 {
     "require": {
         
-        "zend/gdata": "1.12.1"
+        "zend/gdata": "1.12.1",
+        "mpdf/mpdf": "^8.1"
         
         
         
